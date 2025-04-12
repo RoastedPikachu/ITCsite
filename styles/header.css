@@ -1,0 +1,21 @@
+@reference "tailwindcss";
+
+.header {
+    @apply absolute flex justify-between items-center mt-[15px] mx-[calc((100vw-1440px)/2)] pt-[11px] pb-[18px] px-[20px] w-full max-w-[1440px] max-h-[98px] bg-[#0a0a0ab3] border-[1px] border-[#323232] rounded-[20px] z-20;
+}
+
+.header-logo {
+    @apply w-[70px] h-[40px];
+}
+
+.header-nav {
+    @apply flex items-center gap-x-[28px];
+}
+
+.header-nav-link {
+    @apply text-[#ffffff] text-[1.375rem] font-["Montserrat"] font-medium;
+}
+
+.header-button {
+    @apply flex justify-center items-center pt-[22px] pb-[26px] px-[47px] max-h-[69px] bg-[#00c9d7] rounded-[10px] text-[1.375rem] text-[#ffffff] text-center font-["Montserrat"] font-semibold;
+}
