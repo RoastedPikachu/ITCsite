@@ -1,103 +1,75 @@
 import Image from "next/image";
+import TheHeader from "@/widgets/header/TheHeader";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <>
+      <TheHeader />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+      <main>
+        <section className="relative pt-[182px] w-full h-[1080px] bg-[url('/static/GreetingsBackground.png')] bg-cover">
+          <img
+            src="/static/GreetingsBackgroundDarknessDecoration.png"
+            alt=""
+            className="absolute top-0 w-full h-[275px]"
+          />
+
+          <h1 className="block text-[#ffffff] text-[7.1875rem] text-center font-['Bebas'] font-bold">
+            <b className="text-[#00c9d7]">М</b>ЕСТО ВСТРЕЧИ IT-ТАЛАНТОВ
+          </h1>
+
+          <div className="relative flex justify-between items-center mt-[90px] px-[135px]">
+            <div className="px-[25px] py-[25px] w-auto max-w-[592px] h-auto bg-[#0a0a0acc] border-[1px] border-[#323232] rounded-[20px]">
+              <div className="flex items-center gap-x-[15px]">
+                <img src="/static/CreateFuture.svg" alt="" />
+
+                <h3 className="text-[#ffffff] text-[2.375rem] text-left font-['Bebas'] font-bold">
+                  СОЗДАВАЙ IT-БУДУЩЕЕ{" "}
+                  <b className="text-[#00c9d7]">ВМЕСТЕ С НАМИ!</b>
+                </h3>
+              </div>
+
+              <p className="text-[#ffffff] text-[1.5rem] text-left font-['Montserrat'] font-medium">
+                Хочешь разрабатывать реальные проекты, получать ценный опыт и
+                прокачивать свои навыки в IT? Присоединяйся к
+                Информационно-техническому сообществу КИПФИН!
+              </p>
+            </div>
+
+            <div className="px-[25px] py-[25px] w-auto max-w-[592px] h-auto bg-[#0a0a0acc] border-[1px] border-[#323232] rounded-[20px]">
+              <div className="flex items-center gap-x-[15px]">
+                <img src="/static/YourTeam.svg" alt="" />
+
+                <h3 className="text-[#ffffff] text-[2.375rem] text-left font-['Bebas'] font-bold">
+                  ТВОЯ IT-КОМАНДА УЖЕ{" "}
+                  <b className="text-[#00c9d7]">ЖДЕТ ТЕБЯ!</b>
+                </h3>
+              </div>
+
+              <p className="text-[#ffffff] text-[1.5rem] text-left font-['Montserrat'] font-medium">
+                ИТС – это сообщество студентов, объединенных любовью к
+                технологиям. Вместе мы создаем крутые проекты, учимся новому и
+                готовимся к карьере в IT!
+              </p>
+            </div>
+          </div>
+
+          <div className="relative flex justify-center items-start gap-x-[32px] mt-[208px] z-20">
+            <button className="w-[80px] h-[80px] border-[1px] border-[#ffffff] rounded-[15px]"></button>
+
+            <p className="max-w-[485px] text-[#ffffff] text-[1.375rem] text-left font-['Montserrat'] font-medium">
+              Подведение итогов года Остапенко Григорием Александровичем в
+              КИПФИН
+            </p>
+          </div>
+
+          <img
+            src="/static/GreetingsBackgroundDarknessDecorationBottom.png"
+            alt=""
+            className="absolute bottom-0 w-full h-[162px]"
+          />
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    </>
   );
 }
