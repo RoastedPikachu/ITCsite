@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TheHeader from "@/widgets/header/TheHeader";
+import TheFooter from "@/widgets/footer/TheFooter";
 
 export default function Home() {
   return (
@@ -69,6 +70,8 @@ export default function Home() {
             className="absolute bottom-0 w-full h-[162px]"
           />
         </section>
+
+        <TheFooter />
       </main>
     </>
   );
