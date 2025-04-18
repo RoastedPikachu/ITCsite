@@ -122,5 +122,4 @@ const Page = () => {
     </PageWrapper>
   );
 };
-
 export default Page;
