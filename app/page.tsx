@@ -1,12 +1,8 @@
-import Image from "next/image";
-import TheHeader from "@/widgets/header/TheHeader";
-import TheFooter from "@/widgets/footer/TheFooter";
+import PageWrapper from "@/widgets/PageWrapper";
 
 export default function Home() {
   return (
-    <>
-      <TheHeader />
-
+    <PageWrapper>
       <main>
         <section className="relative pt-[182px] w-full h-[1080px] bg-[url('/static/GreetingsBackground.png')] bg-cover">
           <img
@@ -70,9 +66,7 @@ export default function Home() {
             className="absolute bottom-0 w-full h-[162px]"
           />
         </section>
-
-        <TheFooter />
       </main>
-    </>
+    </PageWrapper>
   );
 }
