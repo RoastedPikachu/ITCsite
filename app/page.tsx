@@ -1,6 +1,34 @@
+"use client";
+import { useState, useEffect, useRef } from "react";
+
 import PageWrapper from "@/widgets/PageWrapper";
 
 export default function Home() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [slides, setSlides] = useState([]);
+  const sectionContainerRef = useRef(null);
+
+  const prev = () => {
+    if (currentIndex <= 0) return;
+    setCurrentIndex(currentIndex - 1);
+  };
+
+  const next = () => {
+    if (currentIndex >= slides.length - 1) return;
+    setCurrentIndex(currentIndex + 1);
+  };
+
+  // useEffect(() => {
+  //   // Инициализация слайдов
+  //   if (sectionContainerRef.current) {
+  //     const newSlides = Array.from();
+  //     // setSlides(newSlides);
+  //   }
+  // }, [children]);
+
+  useEffect(() => {
+    // render();
+  }, [currentIndex, slides]);
   return (
     <PageWrapper>
       <main>
@@ -65,6 +93,55 @@ export default function Home() {
             alt=""
             className="absolute bottom-0 w-full h-[162px]"
           />
+        </section>
+
+        <section className="relative pt-[185px] px-[135px] w-full h-auto">
+          <div>
+            <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
+              <b className="text-[#00c9d7]">Р</b>уководство
+              <br /> нашего сообщества
+            </h2>
+          </div>
+
+          <div className="mt-[90px]"></div>
+        </section>
+
+        <section className="relative pt-[185px] px-[135px] w-full h-auto">
+          <div>
+            <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
+              <b className="text-[#00c9d7]">А</b>ктивисты
+              <br /> нашего сообщества
+            </h2>
+          </div>
+
+          <div className="mt-[90px]"></div>
+        </section>
+
+        <section className="relative pt-[185px] px-[135px] w-full h-auto">
+          <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
+            <b className="text-[#00c9d7]">К</b>АРТА IT-ГОРИЗОНТОВ:
+            <br /> НАШИ НАПРАВЛЕНИЯ
+          </h2>
+
+          <div className="relative grid grid-cols-3 gap-x-[60px] mt-[90px] w-full">
+            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
+              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+                Проектная деятельность
+              </p>
+            </div>
+
+            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Media.png')] bg-cover">
+              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+                Медиа и менеджмент
+              </p>
+            </div>
+
+            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
+              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+                3D печать
+              </p>
+            </div>
+          </div>
         </section>
       </main>
     </PageWrapper>

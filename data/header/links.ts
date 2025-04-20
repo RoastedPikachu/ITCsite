@@ -7,12 +7,12 @@ export const links = [
   {
     id: 2,
     text: "Руководство",
-    link: "/",
+    link: "/management",
   },
   {
     id: 3,
     text: "Активисты",
-    link: "/",
+    link: "/activists",
   },
   {
     id: 4,
@@ -27,6 +27,6 @@ export const links = [
   {
     id: 6,
     text: "Юнармия",
-    link: "/",
+    link: "/junarmy",
   },
 ];
