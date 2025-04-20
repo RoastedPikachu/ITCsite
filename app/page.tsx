@@ -150,23 +150,295 @@ export default function Home() {
             <br /> ДО ВОПЛОЩЕНИЯ
           </h2>
 
-          <div className="relative grid grid-cols-3 gap-x-[60px] mt-[90px] w-full">
-            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
-              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
-                Проектная деятельность
+          <div className="relative grid grid-cols-3 gap-x-[70px] gap-y-[120px] mt-[90px] w-full">
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/HelperKip.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                КИПФИН ПОМОЩНИК 🔥
               </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
             </div>
 
-            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Media.png')] bg-cover">
-              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
-                Медиа и менеджмент
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Znakomstva.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                ЗНАКОМСТВА 🔥
               </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
             </div>
 
-            <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
-              <p className="text-white text-[2.8125rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
-                3D печать
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/3DTour.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                3D ТУР КИПФИН 🔥
               </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/WeLike.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                У НАС ЛЮБЯТ ❤️ 🔥
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Podcasts.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                ИТС ПОДКАСТЫ
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Publishing.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                ИТС ПУБЛИКАЦИИ
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Support.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                КИПФИН ПОДДЕРЖКА
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/ProjectsSystem.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                СИСТЕМА ПРОЕКТОВ ИТС
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Helldivers.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                САЙТ ДЛЯ ИГРЫ Helldivers
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
+            </div>
+
+            <div className="relative w-full h-auto">
+              <img
+                src="/static/TopProject.png"
+                alt=""
+                className="absolute right-[-70px] top-[-70px]"
+              />
+
+              <img
+                src="/static/projects/Attendance.png"
+                alt=""
+                className="w-full h-[36.8vw] rounded-[40px]"
+              />
+
+              <p className="mt-[25px] text-white text-[3.125rem] text-left font-['Bebas'] font-bold">
+                СИСТЕМЫ КОНТРОЛЯ ПОСЕЩАЕМОСТИ
+              </p>
+
+              <a
+                href=""
+                className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              >
+                <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+                  Подробнее
+                </p>
+
+                <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              </a>
             </div>
           </div>
         </section>
