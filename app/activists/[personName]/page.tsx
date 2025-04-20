@@ -7,11 +7,11 @@ import { activists } from "@/data/activists";
 
 import PageWrapper from "@/widgets/PageWrapper";
 
-export function generateStaticParams() {
-  return activists.map((person: any) => ({
-    personName: person.enName,
-  }));
-}
+// export function generateStaticParams() {
+//   return activists.map((person: any) => ({
+//     personName: person.enName,
+//   }));
+// }
 
 const Page = () => {
   const params = useParams();

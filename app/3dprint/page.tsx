@@ -13,11 +13,11 @@ const Page = () => {
           </h1>
 
           <div className="flex justify-between items-center mt-[90px] w-full h-auto">
-            <div className="relative grid gap-y-[25px] w-[30%] h-auto">
+            <div className="relative grid gap-y-[25px] w-[30%] h-[36.8vw]">
               <img
                 src="/static/3dprint/Kipfin.png"
                 alt=""
-                className="w-full h-[650px]"
+                className="w-full h-full"
               />
 
               <p className="text-white text-[3.125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
@@ -25,11 +25,11 @@ const Page = () => {
               </p>
             </div>
 
-            <div className="relative grid gap-y-[25px] w-[30%] h-auto">
+            <div className="relative grid gap-y-[25px] w-[30%] h-[36.8vw]">
               <img
                 src="/static/3dprint/Robot.png"
                 alt=""
-                className="w-full h-[650px]"
+                className="w-full h-full"
               />
 
               <p className="text-white text-[3.125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
@@ -37,11 +37,11 @@ const Page = () => {
               </p>
             </div>
 
-            <div className="relative grid gap-y-[25px] w-[30%] h-auto">
+            <div className="relative grid gap-y-[25px] w-[30%] h-[36.8vw]">
               <img
                 src="/static/3dprint/Microcircuit.png"
                 alt=""
-                className="w-full h-[650px]"
+                className="w-full h-full"
               />
 
               <p className="text-white text-[3.125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">

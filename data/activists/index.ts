@@ -2,7 +2,7 @@ export const activists = [
   {
     id: 1,
     image: "/static/activists/Bykov.png",
-    name: "БЫКОВ ДЕНИС АЛЕКСАНДРОВИЧ",
+    name: "<b style='color: #00c9d7'>БЫКОВ</b> ДЕНИС АЛЕКСАНДРОВИЧ",
     enName: "bykov_da",
     occupation: "Дизайнер ИТС",
     quote: "Хороший дизайн не кричит о себе, он просто работает",
@@ -18,7 +18,7 @@ export const activists = [
   {
     id: 2,
     image: "/static/activists/Latysheva.png",
-    name: "ЛАТЫШЕВА АННА МИХАЙЛОВНА",
+    name: "<b style='color: #00c9d7'>ЛАТЫШЕВА</b> АННА МИХАЙЛОВНА",
     enName: "latysheva_am",
     occupation: "Редактор телеграм-канала «ИТС | Публикации»",
     quote: "Чем старше человек, тем больше ему лет",
@@ -34,7 +34,7 @@ export const activists = [
   {
     id: 3,
     image: "/static/activists/Sattarova.png",
-    name: "САТТАРОВА СЕВАРА ЖАХОНГИР КИЗИ",
+    name: "<b style='color: #00c9d7'>САТТАРОВА</b> СЕВАРА ЖАХОНГИР КИЗИ",
     enName: "sattarova_szk",
     occupation: "Помощник руководителя медиа",
     quote: "То, что нас не убивает, делает нас сильнее ©Фридерик Ницше",
@@ -50,7 +50,7 @@ export const activists = [
   {
     id: 4,
     image: "/static/activists/Karabut.png",
-    name: "КАРАБУТ БОРИС ЕВГЕНЬЕВИЧ",
+    name: "<b style='color: #00c9d7'>КАРАБУТ</b> БОРИС ЕВГЕНЬЕВИЧ",
     enName: "karabut_be",
     occupation: "Почетный участник ИТС",
     quote: "CSS - обман, чтобы набрать классы",
@@ -66,7 +66,7 @@ export const activists = [
   {
     id: 5,
     image: "/static/activists/Kuznetsova.png",
-    name: "КУЗНЕЦОВА ЕКАТЕРИНА СЕРГЕЕВНА",
+    name: "<b style='color: #00c9d7'>КУЗНЕЦОВА</b> ЕКАТЕРИНА СЕРГЕЕВНА",
     enName: "kuznetsova_ks",
     occupation: "Подкастер",
     quote:
@@ -83,7 +83,7 @@ export const activists = [
   {
     id: 6,
     image: "/static/activists/Kalinicheva.png",
-    name: "КАЛИНИЧЕВА ЕЛИЗАВЕТА ВЛАДИМИРОВНА",
+    name: "<b style='color: #00c9d7'>КАЛИНИЧЕВА</b> ЕЛИЗАВЕТА ВЛАДИМИРОВНА",
     enName: "kalinicheva_ev",
     occupation: "Подкастер",
     quote: "Лучше поздно, чем никогда",
