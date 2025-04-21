@@ -1,0 +1,119 @@
+@reference "tailwindcss";
+
+.persons {
+    @apply relative pt-[213px] pb-[140px] w-full;
+}
+
+.persons-top {
+    @apply flex items-start gap-x-[51px] px-[135px] w-full h-auto;
+}
+
+.persons-top-image {
+    @apply w-[320px] h-[440px] rounded-[30px];
+}
+
+.persons-top-right {
+    @apply grid justify-items-start gap-y-[35px] w-full max-w-[930px];
+}
+
+.persons-top-right-title {
+    @apply text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.persons-top-right-occupation {
+    @apply text-white text-[2.1875rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
+}
+
+.persons-top-right-quote {
+    @apply text-white text-[2rem] text-left font-['Montserrat'] font-medium leading-[1.25] italic;
+}
+
+.persons-text {
+    @apply mt-[50px] px-[135px] text-white text-[1.875rem] text-left font-['Montserrat'] font-medium leading-[1.25];
+}
+
+.persons-grattitude {
+    @apply mt-[82px] py-[10px] px-[135px] w-full h-auto bg-[url('/static/AbutkovBg.png')] bg-cover;
+}
+
+.persons-grattitude-text {
+    @apply text-white text-[1.875rem] text-left font-['Montserrat'] font-medium leading-[1.25];
+}
+
+.persons-grattitude-secondText {
+    @apply mt-[20px] text-white text-[2rem] text-left font-['Montserrat'] font-medium leading-[1.25] italic;
+}
+
+.persons-answers-title {
+    @apply mt-[80px] text-white text-[5.3125rem] text-center font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.persons-answers-container {
+    @apply relative grid gap-y-[50px] mt-[72px] px-[135px] w-full h-auto;
+}
+
+.persons-answers-container-item {
+    @apply grid justify-items-start gap-y-[55px] py-[50px] px-[45px] w-full h-auto border-[1px] border-[#323232] rounded-[30px];
+}
+
+.persons-answers-container-item-title {
+    @apply text-white text-[3.75rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.persons-answers-container-item-text {
+    @apply text-white text-[1.875rem] text-left font-['Montserrat'] font-medium leading-[1.25];
+}
+
+@media (max-width: 480px) {
+    .persons {
+        @apply pt-[107px] pb-[82px];
+    }
+
+    .persons-top {
+        @apply gap-x-[19px] px-[20px];
+    }
+
+    .persons-top-image {
+        @apply w-[33.7vw] h-[46.6vw] rounded-[12px];
+    }
+
+    .persons-top-right {
+        @apply gap-y-[20px];
+    }
+
+    .persons-top-right-title {
+        @apply text-[1.6875rem];
+    }
+
+    .persons-top-right-occupation {
+        @apply text-[0.625rem];
+    }
+
+    .persons-top-right-quote {
+        @apply text-[0.625rem];
+    }
+
+    .persons-text {
+        @apply mt-[35px] px-[20px] text-[0.875rem];
+    }
+
+    .persons-answers-title {
+        @apply mt-[35px] text-[1.875rem];
+    }
+
+    .persons-answers-container {
+        @apply gap-y-[25px] mt-[35px] px-[20px];
+    }
+
+    .persons-answers-container-item {
+        @apply gap-y-[20px] py-[12px] pl-[6px] pr-[16px] rounded-[6px];
+    }
+
+    .persons-answers-container-item-title {
+        @apply text-[1.5625rem];
+    }
+
+    .persons-answers-container-item-text {
+        @apply text-[0.8125rem];
+    }
+}
