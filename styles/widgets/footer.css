@@ -1,0 +1,95 @@
+@reference "tailwindcss";
+
+.footer {
+    @apply relative flex justify-between items-start pt-[50px] pl-[122px] pr-[135px] w-full h-[702px] bg-[url('/static/footerBackground.png')] rounded-t-[30px];
+}
+
+.footer-nav {
+    @apply grid justify-items-start gap-y-[50px] max-w-[230px] h-auto;
+}
+
+.footer-nav-link {
+    @apply text-white text-[1.625rem] text-left font-['Montserrat'] font-medium;
+}
+
+.footer-contacts {
+    @apply grid justify-items-end gap-y-[30px] w-[355px];
+}
+
+.footer-contacts-link {
+    @apply flex justify-center items-start gap-x-[11px] py-[30px] px-[20px] w-full h-auto bg-[#0a0a0a] rounded-[10px] cursor-pointer;
+}
+
+.footer-contacts-link-image {
+    @apply w-[15px] h-[15px];
+}
+
+.footer-contacts-link-text {
+    @apply w-full text-white text-[1.375rem] font-['Montserrat'] font-medium;
+}
+
+.footer-contacts-tg {
+    @apply outline-none;
+}
+
+.footer-contacts-tg-image {
+    @apply w-[43px] h-[37px];
+}
+
+.footer-credentials {
+    @apply absolute flex justify-center items-center gap-x-[12px] bottom-[65px] w-full max-w-[calc(100%-257px)];
+}
+
+.footer-credentials-image {
+    @apply w-[30px] h-[30px] rounded-[100%];
+}
+
+.footer-credential-text {
+    @apply text-white text-[1.625rem] font-['Montserrat'] font-medium;
+}
+
+.footer-credentials-text-link {
+    @apply text-[#00c9d7] font-bold;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        @apply pt-[8px] pl-[20px] pr-[20px] w-full h-[285px] rounded-t-[0];
+    }
+
+    .footer-nav {
+        @apply invisible;
+    }
+
+    .footer-contacts {
+        @apply gap-y-[13px] w-[155px];
+    }
+
+    .footer-contacts-link {
+        @apply gap-x-[5px] py-[17px] px-[10px] rounded-[5px];
+    }
+
+    .footer-contacts-link-image {
+        @apply w-[7px] h-[7px];
+    }
+
+    .footer-contacts-link-text {
+        @apply text-[0.625rem];
+    }
+
+    .footer-contacts-tg-image {
+        @apply w-[17px] h-[15px];
+    }
+
+    .footer-credentials {
+        @apply gap-x-[6px] bottom-[19px] max-w-[calc(100%-40px)];
+    }
+
+    .footer-credentials-image {
+        @apply w-[14px] h-[14px];
+    }
+
+    .footer-credential-text {
+        @apply text-[0.75rem];
+    }
+}

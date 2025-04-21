@@ -1,5 +1,8 @@
 import React from "react";
+
 import Link from "next/link";
+
+import "@/styles/widgets/footer.css";
 
 const TheFooter = () => {
   const links = [
@@ -35,46 +38,36 @@ const TheFooter = () => {
     },
   ];
   return (
-    <footer className="relative flex justify-between items-start pt-[50px] pl-[122px] pr-[135px] w-full h-[702px] bg-[url('/static/footerBackground.png')] rounded-t-[30px]">
-      <nav className="grid justify-items-start gap-y-[50px] max-w-[230px] h-auto">
+    <footer className="footer">
+      <nav className="footer-nav">
         {links.map((link) => (
-          <Link
-            key={link.id}
-            href={link.link}
-            className="text-white text-[1.625rem] text-left font-['Montserrat'] font-medium"
-          >
+          <Link key={link.id} href={link.link} className="footer-nav-link">
             {link.text}
           </Link>
         ))}
       </nav>
 
-      <div className="grid justify-items-end gap-y-[30px] w-[355px]">
-        <a
-          href="tel:84995531428"
-          className="flex justify-center items-start gap-x-[11px] py-[30px] px-[20px] w-full h-auto bg-[#0a0a0a] rounded-[10px] cursor-pointer"
-        >
+      <div className="footer-contacts">
+        <a href="tel:84995531428" className="footer-contacts-link">
           <img
             src="/static/footer/Phone.svg"
             alt=""
-            className="mt-[10px] w-[15px] h-[15px]"
+            className="footer-contacts-link-image mt-[10px]"
           />
 
-          <p className="w-full text-white text-[1.375rem] font-['Montserrat'] font-medium">
+          <p className="footer-contacts-link-text">
             Телефон: 8 499 553 14 28 (доб. 8)
           </p>
         </a>
 
-        <a
-          href="mailto:general@itc-team.ru"
-          className="flex justify-center items-start gap-x-[11px] py-[30px] px-[20px] w-full h-[122px] bg-[#0a0a0a] rounded-[10px] cursor-pointer"
-        >
+        <a href="mailto:general@itc-team.ru" className="footer-contacts-link">
           <img
             src="/static/footer/Email.svg"
             alt=""
-            className="mt-[10px] w-[15px] h-[15px]"
+            className="footer-contacts-link-image mt-[10px]"
           />
 
-          <p className="w-full text-white text-[1.375rem] font-['Montserrat'] font-medium">
+          <p className="footer-contacts-link-text">
             Почта: <br />
             general@itc-team.ru
           </p>
@@ -82,40 +75,40 @@ const TheFooter = () => {
 
         <a
           href="https://yandex.ru/maps/213/moscow/house/kronshtadtskiy_bulvar_37b/Z04YcwdlTUIFQFtvfXR1eX9nYw==/?ll=37.505471%2C55.848347&z=17"
-          className="flex justify-center items-start gap-x-[11px] py-[30px] px-[20px] w-full h-[122px] bg-[#0a0a0a] rounded-[10px] cursor-pointer"
+          className="footer-contacts-link"
         >
           <img
             src="/static/footer/Address.svg"
             alt=""
-            className="mt-[10px] w-[15px] h-[15px]"
+            className="footer-contacts-link-image mt-[10px]"
           />
 
-          <p className="w-full text-white text-[1.375rem] font-['Montserrat'] font-medium">
+          <p className="footer-contacts-link-text">
             Адрес: Кронштадский бульвар, 37б
           </p>
         </a>
 
-        <a href="https://t.me/halfcoder" className="outline-none">
+        <a href="https://t.me/halfcoder" className="footer-contacts-tg">
           <img
             src="/static/footer/Telegram.svg"
             alt=""
-            className="w-[43px] h-[37px]"
+            className="footer-contacts-tg-image"
           />
         </a>
       </div>
 
-      <div className="absolute flex justify-center items-center gap-x-[12px] bottom-[65px] w-full max-w-[calc(100%-257px)]">
+      <div className="footer-credentials">
         <img
           src="/static/footer/DeonigiAvatar.png"
           alt=""
-          className="w-[30px] h-[30px] rounded-[100%]"
+          className="footer-credentials-image"
         />
 
-        <p className="text-white text-[1.625rem] font-['Montserrat'] font-medium">
+        <p className="footer-credential-text">
           Designed by{" "}
           <a
-            href="https://vk.com/deonigi_studio"
-            className="text-[#00c9d7] font-bold"
+            href="https://t.me/uncle_disya"
+            className="footer-credentials-text-link"
           >
             DEONIGI
           </a>
