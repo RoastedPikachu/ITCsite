@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 
 import Link from "next/link";
 
 import "@/styles/widgets/footer.css";
+import { burgerMenuStore } from "@/store/BurgerMenuStore";
 
 const TheFooter = () => {
   const links = [
@@ -39,6 +41,13 @@ const TheFooter = () => {
   ];
   return (
     <footer className="footer">
+      <button
+        onClick={() => burgerMenuStore.changeIsMenuOpened(true)}
+        className="footer-burgerButton"
+      >
+        <img src="/static/burger.svg" alt="" />
+      </button>
+
       <nav className="footer-nav">
         {links.map((link) => (
           <Link key={link.id} href={link.link} className="footer-nav-link">

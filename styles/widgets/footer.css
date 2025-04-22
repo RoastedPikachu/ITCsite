@@ -52,9 +52,17 @@
     @apply text-[#00c9d7] font-bold;
 }
 
+.footer-burgerButton {
+    @apply hidden;
+}
+
 @media (max-width: 480px) {
     .footer {
         @apply pt-[8px] pl-[20px] pr-[20px] w-full h-[285px] rounded-t-[0];
+    }
+
+    .footer-burgerButton {
+        @apply flex justify-center items-center w-[40px] h-[40px] bg-[#0a0a0a] rounded-[7px] outline-none;
     }
 
     .footer-nav {
