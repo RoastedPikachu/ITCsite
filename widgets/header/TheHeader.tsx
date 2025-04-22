@@ -12,7 +12,9 @@ import "@/styles/widgets/header.css";
 const TheHeader = () => {
   return (
     <header className="header">
-      <img src="/static/logo.svg" alt="" className="header-logo" />
+      <Link href="/">
+        <img src="/static/logo.svg" alt="" className="header-logo" />
+      </Link>
 
       <nav className="header-nav">
         {links.map((link) => (

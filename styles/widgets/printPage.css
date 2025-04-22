@@ -1,0 +1,55 @@
+@reference "tailwindcss";
+
+.printSection {
+    @apply relative pt-[213px] pb-[140px] px-[135px] w-full;
+}
+
+.printSection-title {
+    @apply max-w-[670px] text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.printSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.printSection-container {
+    @apply flex justify-between items-center mt-[90px] w-full h-auto;
+}
+
+.printSection-container-item {
+    @apply relative grid gap-y-[25px] w-[30%] h-[36.8vw];
+}
+
+.printSection-container-item-image {
+    @apply w-full h-full;
+}
+
+.printSection-container-item-title {
+    @apply text-white text-[3.125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.printSection-container-item-title-bold {
+    @apply text-[#00c9d7];
+}
+
+@media (max-width: 480px) {
+    .printSection {
+        @apply relative pt-[107px] pb-[70px] px-[20px] w-full;
+    }
+
+    .printSection-title {
+        @apply max-w-[75%] text-[1.875rem];
+    }
+
+    .printSection-container {
+        @apply grid justify-items-start grid-cols-2 gap-x-[20px] gap-y-[30px] mt-[32px];
+    }
+
+    .printSection-container-item {
+        @apply gap-y-[8px] w-full h-auto;
+    }
+
+    .printSection-container-item-title {
+        @apply text-[0.9375rem];
+    }
+}

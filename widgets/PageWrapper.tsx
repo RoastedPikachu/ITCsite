@@ -1,50 +1,62 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 
 import TheHeader from "@/widgets/header/TheHeader";
 import TheFooter from "@/widgets/footer/TheFooter";
 import { burgerMenuStore } from "@/store/BurgerMenuStore";
 import { observer } from "mobx-react-lite";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const PageWrapper: React.FC<{ children: any }> = observer(({ children }) => {
+  const pathname = usePathname();
+
   const links = [
     {
       id: 1,
       link: "/",
       text: "Главная",
+      isActive: false,
     },
     {
       id: 2,
       link: "/",
       text: "Руководство",
+      isActive: false,
     },
     {
       id: 3,
       link: "/",
       text: "Активисты",
+      isActive: false,
     },
     {
       id: 4,
       link: "/",
       text: "Направления",
+      isActive: false,
     },
     {
       id: 5,
       link: "/",
       text: "Наши проекты",
+      isActive: false,
     },
     {
       id: 6,
-      link: "/",
+      link: "/junarmy",
       text: "Юнармия",
+      isActive: false,
     },
     {
       id: 7,
       link: "/",
       text: "Хочу в ИТС",
+      isActive: false,
     },
   ];
+
+  useEffect(() => {}, []);
   return (
     <>
       <TheHeader />
