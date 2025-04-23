@@ -108,6 +108,50 @@
     @apply text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
 }
 
+.resultsSection {
+    @apply relative pt-[185px] px-[135px] w-full h-auto;
+}
+
+.resultsSection-title {
+    @apply text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.resultsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.resultsSection-container {
+    @apply relative grid grid-cols-3 gap-x-[70px] gap-y-[120px] mt-[90px] w-full;
+}
+
+.resultsSection-container-item {
+    @apply relative w-full h-auto;
+}
+
+.resultsSection-container-item-decoration {
+    @apply absolute right-[-70px] top-[-70px];
+}
+
+.resultsSection-container-item-image {
+    @apply w-full h-[36.8vw] rounded-[40px];
+}
+
+.resultsSection-container-item-text {
+    @apply mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold;
+}
+
+.resultsSection-container-item-link {
+    @apply flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px];
+}
+
+.resultsSection-container-item-link-text {
+    @apply text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold;
+}
+
+.resultsSection-container-item-link-img {
+    @apply w-[22px];
+}
+
 .documentsSection {
     @apply relative pt-[185px] pb-[135px] px-[135px] w-full h-auto;
 }
@@ -267,6 +311,42 @@
 
     .projectsSection-container-item-text {
         @apply text-[0.9375rem];
+    }
+
+    .resultsSection {
+        @apply pt-[45px] px-[5vw];
+    }
+
+    .resultsSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .resultsSection-container {
+        @apply grid-cols-2 gap-x-[20px] gap-y-[30px] mt-[50px];
+    }
+
+    .resultsSection-container-item-decoration {
+        @apply absolute right-[-20px] top-[-20px] w-[40px] h-[40px];
+    }
+
+    .resultsSection-container-item-image {
+        @apply h-[55vw] rounded-[12px];
+    }
+
+    .resultsSection-container-item-text {
+        @apply mt-[7px] text-[0.9375rem];
+    }
+
+    .resultsSection-container-item-link {
+        @apply justify-center gap-x-[6px] mt-[10px] py-0 w-full h-[25px] rounded-[4px];
+    }
+
+    .resultsSection-container-item-link-text {
+        @apply text-[0.625rem];
+    }
+
+    .resultsSection-container-item-link-img {
+        @apply w-[8px];
     }
 
     .documentsSection {

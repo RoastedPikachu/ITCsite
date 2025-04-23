@@ -500,270 +500,301 @@ const MainPageContent = () => {
         </div>
       </section>
 
-      <section className="relative pt-[185px] px-[135px] w-full h-auto">
-        <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
-          <b className="text-[#00c9d7]">IT</b>-ПРОЕКТЫ: ОТ КОДА
+      <section className="resultsSection">
+        <h2 className="resultsSection-title">
+          <b className="resultsSection-title-bold">IT</b>-ПРОЕКТЫ: ОТ КОДА
           <br /> ДО ВОПЛОЩЕНИЯ
         </h2>
 
-        <div className="relative grid grid-cols-3 gap-x-[70px] gap-y-[120px] mt-[90px] w-full">
-          <div className="relative w-full h-auto">
+        <div className="resultsSection-container">
+          <div className="resultsSection-container-item">
             <img
               src="/static/TopProject.png"
               alt=""
-              className="absolute right-[-70px] top-[-70px]"
+              className="resultsSection-container-item-decoration"
             />
 
             <img
               src="/static/projects/HelperKip.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               КИПФИН ПОМОЩНИК 🔥
             </p>
 
             <a
               href="https://t.me/HelperKipBot"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/TopProject.png"
               alt=""
-              className="absolute right-[-70px] top-[-70px]"
+              className="resultsSection-container-item-decoration"
             />
 
             <img
               src="/static/projects/Znakomstva.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
-              ЗНАКОМСТВА 🔥
-            </p>
+            <p className="resultsSection-container-item-text">ЗНАКОМСТВА 🔥</p>
 
             <a
               href="https://t.me/znakomstva_searchbot"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/TopProject.png"
               alt=""
-              className="absolute right-[-70px] top-[-70px]"
+              className="resultsSection-container-item-decoration"
             />
 
             <img
               src="/static/projects/3DTour.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               3D ТУР КИПФИН 🔥
             </p>
 
             <a
               href="https://tour.panoee.net/65e08e217a73f2feff4db099/65e08e717a73f212cb4db0ac"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/TopProject.png"
               alt=""
-              className="absolute right-[-70px] top-[-70px]"
+              className="resultsSection-container-item-decoration"
             />
 
             <img
               src="/static/projects/WeLike.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               У НАС ЛЮБЯТ ❤️ 🔥
             </p>
 
             <a
               href="https://t.me/like_board"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/TopProject.png"
               alt=""
-              className="absolute right-[-70px] top-[-70px]"
+              className="resultsSection-container-item-decoration"
             />
 
             <img
               src="/static/projects/Podcasts.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
-              ИТС ПОДКАСТЫ
-            </p>
+            <p className="resultsSection-container-item-text">ИТС ПОДКАСТЫ</p>
 
             <a
               href="https://t.me/halfcoder"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/projects/Publishing.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
-              ИТС ПУБЛИКАЦИИ
-            </p>
+            <p className="resultsSection-container-item-text">ИТС ПУБЛИКАЦИИ</p>
 
             <a
               href="https://t.me/halfcoder"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/projects/Support.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               КИПФИН ПОДДЕРЖКА
             </p>
 
             <a
               href="https://t.me/ItcProjects"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/projects/ProjectsSystem.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               СИСТЕМА ПРОЕКТОВ ИТС
             </p>
 
             <a
               href="https://t.me/ItcProjects"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/projects/Helldivers.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               САЙТ ДЛЯ ИГРЫ Helldivers
             </p>
 
             <a
               href="https://helldivers.help"
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
+              className="resultsSection-container-item-link"
             >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
 
-          <div className="relative w-full h-auto">
+          <div className="resultsSection-container-item">
             <img
               src="/static/projects/Attendance.png"
               alt=""
-              className="w-full h-[36.8vw] rounded-[40px]"
+              className="resultsSection-container-item-image"
             />
 
-            <p className="mt-[25px] text-white text-[2.75rem] text-left font-['Bebas'] font-bold">
+            <p className="resultsSection-container-item-text">
               СИСТЕМЫ КОНТРОЛЯ ПОСЕЩАЕМОСТИ
             </p>
 
-            <a
-              href=""
-              className="flex items-center gap-x-[16px] mt-[20px] px-[25px] py-[20px] w-auto max-w-[237px] h-[68px] border-[1px] border-white rounded-[12px]"
-            >
-              <p className="text-white text-[1.5rem] text-left font-['Montserrat'] font-semibold">
+            <a href="" className="resultsSection-container-item-link">
+              <p className="resultsSection-container-item-link-text">
                 Подробнее
               </p>
 
-              <img src="/static/ArrowRight.svg" alt="" className="w-[22px]" />
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
             </a>
           </div>
         </div>
