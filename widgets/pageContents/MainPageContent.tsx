@@ -68,12 +68,12 @@ const MainPageContent = () => {
           </div>
         </div>
 
-        <div className="relative flex justify-center items-start gap-x-[32px] mt-[208px] z-20">
-          <button className="w-[80px] h-[80px] border-[1px] border-[#ffffff] rounded-[15px] cursor-pointer">
+        <div className="greetingsSection-yearTotal">
+          <button className="greetingsSection-yearTotal-button">
             <img src="/static/play.svg" alt="" />
           </button>
 
-          <p className="max-w-[485px] text-[#ffffff] text-[1.375rem] text-left font-['Montserrat'] font-medium">
+          <p className="greetingsSection-yearTotal-text">
             Подведение итогов года Остапенко Григорием Александровичем в КИПФИН
           </p>
         </div>
@@ -81,17 +81,15 @@ const MainPageContent = () => {
         <img
           src="/static/GreetingsBackgroundDarknessDecorationBottom.png"
           alt=""
-          className="absolute bottom-0 w-full h-[162px]"
+          className="greetingsSection-bottomDecoration"
         />
       </section>
 
-      <section className="relative pt-[185px] px-[135px] w-full h-auto">
-        <div>
-          <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
-            <b className="text-[#00c9d7]">Р</b>уководство
-            <br /> нашего сообщества
-          </h2>
-        </div>
+      <section className="managersSection">
+        <h2 className="managersSection-title">
+          <b className="managersSection-title-bold">Р</b>уководство
+          <br /> нашего сообщества
+        </h2>
 
         <Swiper
           spaceBetween={60}
@@ -282,13 +280,11 @@ const MainPageContent = () => {
         </Swiper>
       </section>
 
-      <section className="relative pt-[185px] px-[135px] w-full h-auto">
-        <div>
-          <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
-            <b className="text-[#00c9d7]">А</b>ктивисты
-            <br /> нашего сообщества
-          </h2>
-        </div>
+      <section className="activistsSection">
+        <h2 className="activistsSection-title">
+          <b className="activistsSection-title-bold">А</b>ктивисты
+          <br /> нашего сообщества
+        </h2>
 
         <Swiper
           spaceBetween={60}
@@ -479,29 +475,27 @@ const MainPageContent = () => {
         </Swiper>
       </section>
 
-      <section className="relative pt-[185px] px-[135px] w-full h-auto">
-        <h2 className="text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase">
-          <b className="text-[#00c9d7]">К</b>АРТА IT-ГОРИЗОНТОВ:
+      <section className="projectsSection">
+        <h2 className="projectsSection-title">
+          <b className="projectsSection-title-bold">К</b>АРТА IT-ГОРИЗОНТОВ:
           <br /> НАШИ НАПРАВЛЕНИЯ
         </h2>
 
-        <div className="relative grid grid-cols-3 gap-x-[60px] mt-[90px] w-full">
-          <div className="relative px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
-            <p className="text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+        <div className="projectsSection-container">
+          <div className="projectsSection-container-item bg-[url('/static/Development.png')]">
+            <p className="projectsSection-container-item-text">
               Проектная деятельность
             </p>
           </div>
 
-          <div className="relative px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Media.png')] bg-cover">
-            <p className="text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+          <div className="projectsSection-container-item bg-[url('/static/Media.png')]">
+            <p className="projectsSection-container-item-text">
               Медиа и менеджмент
             </p>
           </div>
 
-          <div className="px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-[url('/static/Development.png')] bg-cover">
-            <p className="text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
-              3D печать
-            </p>
+          <div className="projectsSection-container-item bg-[url('/static/Development.png')]">
+            <p className="projectsSection-container-item-text">3D печать</p>
           </div>
         </div>
       </section>
@@ -841,33 +835,33 @@ const MainPageContent = () => {
         </div>
       </section>
 
-      <section className="relative pt-[185px] pb-[135px] px-[135px] w-full h-auto">
-        <h2 className="max-w-[650px] text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase">
-          <b className="text-[#00c9d7]">Д</b>ОКУМЕНТЫ ИТС
+      <section className="documentsSection">
+        <h2 className="documentsSection-title">
+          <b className="documentsSection-title-bold">Д</b>ОКУМЕНТЫ ИТС
         </h2>
 
-        <div className="grid gap-y-[60px] mt-[90px]">
-          <div className="flex justify-between items-center gap-x-[20px] px-[50px] py-[50px] w-full h-auto border-[1px] border-[#323232] rounded-[30px]">
-            <p className="text-white text-[1.875rem] text-left font-['Montserrat'] font-semibold">
+        <div className="documentsSection-container">
+          <div className="documentsSection-container-item">
+            <p className="documentsSection-container-item-text">
               NDA (Соглашение о конфиденциальности и неразглашении информации)
             </p>
 
             <a
               href="/static/docs/NDA.docx"
-              className="flex justify-center items-center w-[82px] min-w-[82px] h-[82px] bg-[#202020] rounded-[15px] outline-none"
+              className="documentsSection-container-item-link"
             >
               <img src="/static/download.svg" alt="" />
             </a>
           </div>
 
-          <div className="flex justify-between items-center gap-x-[20px] px-[50px] py-[50px] w-full h-auto border-[1px] border-[#323232] rounded-[30px]">
-            <p className="text-white text-[1.875rem] text-left font-['Montserrat'] font-semibold">
+          <div className="documentsSection-container-item">
+            <p className="documentsSection-container-item-text">
               Заявление на вступление
             </p>
 
             <a
               href="/static/docs/Zayavlenie-na-vstuplenie-v-ITS.docx"
-              className="flex justify-center items-center w-[82px] min-w-[82px] h-[82px] bg-[#202020] rounded-[15px] outline-none"
+              className="documentsSection-container-item-link"
             >
               <img src="/static/download.svg" alt="" />
             </a>

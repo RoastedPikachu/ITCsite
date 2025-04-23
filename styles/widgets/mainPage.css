@@ -44,6 +44,98 @@
     @apply text-[#ffffff] text-[1.5rem] text-left font-['Montserrat'] font-medium;
 }
 
+.greetingsSection-yearTotal {
+    @apply relative flex justify-center items-start gap-x-[32px] mt-[208px] z-20;
+}
+
+.greetingsSection-yearTotal-button {
+    @apply w-[80px] h-[80px] border-[1px] border-[#ffffff] rounded-[15px] cursor-pointer;
+}
+
+.greetingsSection-yearTotal-text {
+    @apply max-w-[485px] text-[#ffffff] text-[1.375rem] text-left font-['Montserrat'] font-medium;
+}
+
+.greetingsSection-bottomDecoration {
+    @apply absolute bottom-0 w-full h-[162px];
+}
+
+.managersSection {
+    @apply relative pt-[185px] px-[135px] w-full h-auto;
+}
+
+.managersSection-title {
+    @apply text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.managersSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.activistsSection {
+    @apply relative pt-[185px] px-[135px] w-full h-auto;
+}
+
+.activistsSection-title {
+    @apply text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.activistsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.projectsSection {
+    @apply relative pt-[185px] px-[135px] w-full h-auto;
+}
+
+.projectsSection-title {
+    @apply text-white text-[5.3125rem] text-left font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.projectsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.projectsSection-container {
+    @apply relative grid grid-cols-3 gap-x-[60px] mt-[90px] w-full;
+}
+
+.projectsSection-container-item {
+    @apply relative px-[32px] p-[40px] w-full h-[26.5vw] rounded-[40px] bg-cover;
+}
+
+.projectsSection-container-item-text {
+    @apply text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
+}
+
+.documentsSection {
+    @apply relative pt-[185px] pb-[135px] px-[135px] w-full h-auto;
+}
+
+.documentsSection-title {
+    @apply max-w-[650px] text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.documentsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.documentsSection-container {
+    @apply grid gap-y-[60px] mt-[90px];
+}
+
+.documentsSection-container-item {
+    @apply flex justify-between items-center gap-x-[20px] px-[50px] py-[50px] w-full h-auto border-[1px] border-[#323232] rounded-[30px];
+}
+
+.documentsSection-container-item-text {
+    @apply text-white text-[1.875rem] text-left font-['Montserrat'] font-semibold;
+}
+
+.documentsSection-container-item-link {
+    @apply flex justify-center items-center w-[82px] min-w-[82px] h-[82px] bg-[#202020] rounded-[15px] outline-none;
+}
+
 .slider {
     @apply relative mt-[-85px] pt-[175px] w-auto max-w-[100%] h-[calc(35.4vw+175px)] overflow-x-hidden;
 }
@@ -86,4 +178,150 @@
 
 .slider-nextButton > img {
     @apply w-[25px] h-auto;
+}
+
+@media (max-width: 480px) {
+    .greetingsSection {
+        @apply pt-[127px] h-[870px];
+    }
+
+    .greetingsSection-decoration {
+        @apply h-[160px];
+    }
+
+    .greetingsSection-title {
+        @apply mx-auto max-w-[60vw] text-[2.8125rem];
+    }
+
+    .greetingsSection-info {
+        @apply grid gap-y-[20px] mt-[43px] px-[5vw];
+    }
+
+    .greetingsSection-info-item {
+        @apply px-[15px] py-[15px] rounded-[12px];
+    }
+
+    .greetingsSection-info-item-top {
+        @apply gap-x-[8px];
+    }
+
+    .greetingsSection-info-item-top > img {
+        @apply w-[20px] h-[20px];
+    }
+
+    .greetingsSection-info-item-top-title {
+        @apply text-[1.375rem];
+    }
+
+    .greetingsSection-info-item-text {
+        @apply text-[0.875rem];
+    }
+
+    .greetingsSection-yearTotal {
+        @apply grid justify-items-center mt-[42px] mx-auto px-[8vw];
+    }
+
+    .greetingsSection-yearTotal-button {
+        @apply w-[52px] h-[52px] rounded-[10px];
+    }
+
+    .greetingsSection-yearTotal-text {
+        @apply mt-[10px] text-[0.9375rem] text-center;
+    }
+
+    .greetingsSection-bottomDecoration {
+        @apply absolute bottom-0 w-full h-[162px];
+    }
+
+    .managersSection {
+        @apply pt-[45px] px-[5vw];
+    }
+
+    .managersSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .activistsSection {
+        @apply pt-[45px] px-[5vw];
+    }
+
+    .activistsSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .projectsSection {
+        @apply pt-[45px] px-[5vw];
+    }
+
+    .projectsSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .projectsSection-container {
+        @apply grid-cols-2 gap-x-[20px] gap-y-[10px] mt-[35px];
+    }
+
+    .projectsSection-container-item {
+        @apply px-[10px] py-[13px] w-full h-[42vw] rounded-[13px];
+    }
+
+    .projectsSection-container-item-text {
+        @apply text-[0.9375rem];
+    }
+
+    .documentsSection {
+        @apply pt-[45px] pb-[45px] px-[5vw];
+    }
+
+    .documentsSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .documentsSection-container {
+        @apply gap-y-[15px] mt-[35px];
+    }
+
+    .documentsSection-container-item {
+        @apply gap-x-[20px] px-[10px] py-[12px] rounded-[6px];
+    }
+
+    .documentsSection-container-item-text {
+        @apply text-[0.625rem];
+    }
+
+    .documentsSection-container-item-link {
+        @apply w-[26px] min-w-[26px] h-[26px] rounded-[5px];
+    }
+
+    .documentsSection-container-item-link > img {
+        @apply w-[11px] h-[11px];
+    }
+
+    .slider {
+        @apply mt-[-75px] pt-[110px] h-[calc(78.4vw+110px)];
+    }
+
+    .slider-item {
+        @apply py-[14px] px-[15px] w-[57.6vw] h-[78.4vw] rounded-[17px];
+    }
+
+    .slider-item-content {
+        @apply bottom-[14px] left-[15px] w-[calc(100%-30px)];
+    }
+
+    .slider-item-content-name {
+        @apply text-[0.9375rem];
+    }
+
+    .slider-item-content-occupation {
+        @apply mt-[15px] px-[8px] py-[10px] rounded-[5px] text-[0.75rem];
+    }
+
+    .slider-prevButton {
+        @apply hidden;
+    }
+
+    .slider-nextButton {
+        @apply hidden;
+    }
 }
