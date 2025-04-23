@@ -69,7 +69,7 @@
 }
 
 .junarmySection-recruit-container-form-content-text {
-    @apply ml-[30px] mb-[30px] max-w-[355px] text-white text-[1.975rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
+    @apply ml-[30px] mb-[30px] max-w-[355px] text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
 }
 
 .junarmySection-recruit-container-form-content-linkWrapper {
@@ -174,7 +174,7 @@
     }
 
     .slider {
-        @apply mt-[-75px] pt-[110px] h-[calc(78.4vw+110px)] overflow-x-visible;
+        @apply mt-[-75px] pt-[110px] h-[calc(78.4vw+110px)];
     }
 
     .slider-item {

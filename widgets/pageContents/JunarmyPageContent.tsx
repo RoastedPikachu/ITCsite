@@ -12,11 +12,19 @@ const JunarmyPageContent = () => {
   return (
     <main>
       <section className="junarmySection">
-        <img
-          src="/static/junarmy/JunarmyBanner.png"
-          alt=""
-          className="junarmySection-banner"
-        />
+        {typeof window !== "undefined" && window.innerWidth > 480 ? (
+          <img
+            src="/static/junarmy/JunarmyBanner.png"
+            alt=""
+            className="junarmySection-banner"
+          />
+        ) : (
+          <img
+            src="/static/junarmy/mobileBanner.png"
+            alt=""
+            className="junarmySection-banner"
+          />
+        )}
 
         <h1 className="junarmySection-title">
           <b className="junarmySection-title-blueBold">П</b>АТРИОТИЧЕСКИЙ КЛУБ{" "}
@@ -170,7 +178,9 @@ const JunarmyPageContent = () => {
 
           <Swiper
             spaceBetween={60}
-            slidesPerView={3}
+            slidesPerView={
+              typeof window !== "undefined" && window.innerWidth > 480 ? 3 : 1
+            }
             initialSlide={0}
             className="slider"
           >

@@ -1,0 +1,89 @@
+@reference "tailwindcss";
+
+.main .swiper-wrapper {
+    @apply absolute !flex;
+}
+
+.greetingsSection {
+    @apply relative pt-[182px] w-full h-[1080px] bg-[url('/static/GreetingsBackground.png')] bg-cover;
+}
+
+.greetingsSection-decoration {
+    @apply absolute top-0 w-full h-[275px];
+}
+
+.greetingsSection-title {
+    @apply block text-[#ffffff] text-[7.1875rem] text-center font-['Bebas'] font-bold;
+}
+
+.greetingsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.greetingsSection-info {
+    @apply relative flex justify-between items-center mt-[90px] px-[7vw];
+}
+
+.greetingsSection-info-item {
+    @apply px-[25px] py-[25px] w-auto max-w-[592px] h-auto bg-[#0a0a0acc] border-[1px] border-[#323232] rounded-[20px];
+}
+
+.greetingsSection-info-item-top {
+    @apply flex items-center gap-x-[15px];
+}
+
+.greetingsSection-info-item-top-title {
+    @apply text-[#ffffff] text-[2.375rem] text-left font-['Bebas'] font-bold;
+}
+
+.greetingsSection-info-item-top-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.greetingsSection-info-item-text {
+    @apply text-[#ffffff] text-[1.5rem] text-left font-['Montserrat'] font-medium;
+}
+
+.slider {
+    @apply relative mt-[-85px] pt-[175px] w-auto max-w-[100%] h-[calc(35.4vw+175px)] overflow-x-hidden;
+}
+
+.slider-item {
+    @apply relative py-[30px] px-[30px] w-full h-[35.4vw] bg-cover border-[1px] border-[#323232] rounded-[40px] cursor-pointer overflow-hidden;
+}
+
+.slider-item-content {
+    @apply absolute bottom-[30px] left-[30px] w-[calc(100%-60px)] z-20;
+}
+
+.slider-item-content-link {
+    @apply flex justify-center items-center gap-x-[15px] mt-[30px] px-[25px] w-auto max-w-[176px] h-[68px] border-[1px] border-[#ffffff] rounded-[12px];
+}
+
+.slider-item-content-link-text {
+    @apply text-[#ffffff] text-[1.4375rem] text-left font-['Montserrat'] font-semibold;
+}
+
+.slider-item-content-name {
+    @apply text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.375];
+}
+
+.slider-item-content-occupation {
+    @apply mt-[23px] px-[17px] py-[22px] max-w-[380px] border-[1px] border-[#e02307] rounded-[10px] text-white text-[1.125rem] text-left font-['Montserrat'] font-semibold;
+}
+
+.slider-prevButton {
+    @apply absolute flex justify-center items-center top-[0px] right-[90px] w-[70px] h-[70px] border-[1px] border-[#ffffff] rounded-[15px] z-[19] cursor-pointer;
+}
+
+.slider-nextButton {
+    @apply absolute flex justify-center items-center top-[0px] right-0 w-[70px] h-[70px] border-[1px] border-[#ffffff] rounded-[15px] z-[19] cursor-pointer;
+}
+
+.slider-prevButton > img {
+    @apply w-[25px] h-auto;
+}
+
+.slider-nextButton > img {
+    @apply w-[25px] h-auto;
+}
