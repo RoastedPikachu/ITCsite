@@ -15,23 +15,23 @@ const TheFooter = () => {
     },
     {
       id: 2,
-      link: "https://teletype.in/@wszug/G4xvL1X2stz",
-      text: "Буклет",
-    },
-    {
-      id: 3,
       link: "/#Management",
       text: "Руководство",
     },
     {
-      id: 4,
+      id: 3,
       link: "/#Ways",
       text: "Направления",
     },
     {
-      id: 5,
+      id: 4,
       link: "/#Projects",
       text: "Наши проекты",
+    },
+    {
+      id: 5,
+      link: "https://teletype.in/@wszug/G4xvL1X2stz",
+      text: "Буклет",
     },
     {
       id: 6,
@@ -50,7 +50,12 @@ const TheFooter = () => {
 
       <nav className="footer-nav">
         {links.map((link) => (
-          <Link key={link.id} href={link.link} className="footer-nav-link">
+          <Link
+            key={link.id}
+            href={link.link}
+            target={link.id === 5 ? "_blank" : "_self"}
+            className="footer-nav-link"
+          >
             {link.text}
           </Link>
         ))}

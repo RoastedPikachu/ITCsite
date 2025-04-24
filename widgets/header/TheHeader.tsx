@@ -18,7 +18,12 @@ const TheHeader = () => {
 
       <nav className="header-nav">
         {links.map((link) => (
-          <Link key={link.id} href={link.link} className="header-nav-link">
+          <Link
+            key={link.id}
+            href={link.link}
+            target={link.id === 5 ? "_blank" : "_self"}
+            className="header-nav-link"
+          >
             {link.text}
           </Link>
         ))}
