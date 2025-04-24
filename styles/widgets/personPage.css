@@ -97,6 +97,18 @@
         @apply mt-[35px] px-[20px] text-[0.875rem];
     }
 
+    .persons-grattitude {
+        @apply mt-[25px] py-[20px] px-[20px];
+    }
+
+    .persons-grattitude-text {
+        @apply text-[0.875rem];
+    }
+
+    .persons-grattitude-secondText {
+        @apply mt-[10px] text-[1rem];
+    }
+
     .persons-answers-title {
         @apply mt-[35px] text-[1.875rem];
     }
