@@ -105,7 +105,7 @@ const PersonPageContent = () => {
           </div>
         )}
 
-        {person.answers.length && (
+        {person.answers && person.answers?.length && (
           <>
             <h2 className="persons-answers-title">
               <b style={{ color: "#00c9d7" }}>О</b>тветы на вопросы
