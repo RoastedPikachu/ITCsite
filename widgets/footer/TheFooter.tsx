@@ -15,13 +15,13 @@ const TheFooter = () => {
     },
     {
       id: 2,
-      link: "/#Management",
-      text: "Руководство",
+      link: "https://teletype.in/@wszug/G4xvL1X2stz",
+      text: "Буклет",
     },
     {
       id: 3,
-      link: "/#Activists",
-      text: "Активисты",
+      link: "/#Management",
+      text: "Руководство",
     },
     {
       id: 4,

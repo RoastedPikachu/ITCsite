@@ -6,13 +6,13 @@ export const links = [
   },
   {
     id: 2,
-    text: "Руководство",
-    link: "/#Management",
+    text: "Буклет",
+    link: "https://teletype.in/@wszug/G4xvL1X2stz",
   },
   {
     id: 3,
-    text: "Активисты",
-    link: "/#Activists",
+    text: "Руководство",
+    link: "/#Management",
   },
   {
     id: 4,
