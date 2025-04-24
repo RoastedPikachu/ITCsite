@@ -57,7 +57,11 @@ const PersonPageContent = () => {
     <main>
       <section className="persons">
         <div className="persons-top">
-          <img src={`${person.image}`} alt="" className="persons-top-image" />
+          <img
+            src={person.image ? person.image : ""}
+            alt=""
+            className="persons-top-image"
+          />
 
           <div className="persons-top-right">
             <h1
@@ -101,7 +105,7 @@ const PersonPageContent = () => {
           </div>
         )}
 
-        {person.answers && (
+        {person.answers.length && (
           <>
             <h2 className="persons-answers-title">
               <b style={{ color: "#00c9d7" }}>О</b>тветы на вопросы
