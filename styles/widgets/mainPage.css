@@ -44,8 +44,16 @@
     @apply text-[#ffffff] text-[1.5rem] text-left font-['Montserrat'] font-medium;
 }
 
+.greetingsSection-total {
+    @apply relative flex justify-center items-center gap-x-[50px] mt-[208px] mx-auto w-full h-[81px];
+}
+
+.greetingsSection-total-booklet {
+    @apply flex justify-center items-center w-[200px] h-[50px] border-[1px] border-[#ffffff] rounded-[15px] text-[#ffffff] text-[1.375rem] text-center font-['Montserrat'] font-medium z-20;
+}
+
 .greetingsSection-yearTotal {
-    @apply relative flex justify-center items-start gap-x-[32px] mt-[208px] z-20;
+    @apply relative flex justify-center items-start gap-x-[32px] z-20;
 }
 
 .greetingsSection-yearTotal-button {
@@ -305,8 +313,16 @@
         @apply text-[0.875rem];
     }
 
+    .greetingsSection-total {
+        @apply grid justify-items-center gap-y-[20px] mt-[42px] h-auto;
+    }
+
+    .greetingsSection-total-booklet {
+        @apply flex justify-center items-center w-[150px] h-[30px] border-[1px] border-[#ffffff] rounded-[10px] text-[#ffffff] text-[0.9375rem] text-center font-['Montserrat'] font-medium z-20;
+    }
+
     .greetingsSection-yearTotal {
-        @apply grid justify-items-center mt-[42px] mx-auto px-[8vw];
+        @apply grid justify-items-center mx-auto px-[8vw];
     }
 
     .greetingsSection-yearTotal-button {

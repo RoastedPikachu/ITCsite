@@ -1,19 +1,14 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 import "@/styles/widgets/mainPage.css";
-import { management } from "@/data/management";
 import Link from "next/link";
 
 const MainPageContent = () => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [slides, setSlides] = useState([]);
-  const sectionContainerRef = useRef(null);
   return (
     <main className="main">
       <section className="greetingsSection">
@@ -68,18 +63,28 @@ const MainPageContent = () => {
           </div>
         </div>
 
-        <a
-          href="https://t.me/halfcoder/312"
-          className="greetingsSection-yearTotal"
-        >
-          <button className="greetingsSection-yearTotal-button">
-            <img src="/static/play.svg" alt="" />
-          </button>
+        <div className="greetingsSection-total">
+          <a
+            href="https://t.me/halfcoder/312"
+            className="greetingsSection-yearTotal"
+          >
+            <button className="greetingsSection-yearTotal-button">
+              <img src="/static/play.svg" alt="" />
+            </button>
 
-          <p className="greetingsSection-yearTotal-text">
-            Подведение итогов года Остапенко Григорием Александровичем в КИПФИН
-          </p>
-        </a>
+            <p className="greetingsSection-yearTotal-text">
+              Подведение итогов года Остапенко Григорием Александровичем в
+              КИПФИН
+            </p>
+          </a>
+
+          <a
+            href="https://teletype.in/@wszug/G4xvL1X2stz"
+            className="greetingsSection-total-booklet"
+          >
+            Наш буклет
+          </a>
+        </div>
 
         <img
           src="/static/GreetingsBackgroundDarknessDecorationBottom.png"
