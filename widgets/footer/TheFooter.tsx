@@ -74,7 +74,10 @@ const TheFooter = () => {
           </p>
         </a>
 
-        <a href="mailto:general@itc-team.ru" className="footer-contacts-link">
+        <a
+          href="mailto:itc-projects@yandex.ru"
+          className="footer-contacts-link"
+        >
           <img
             src="/static/footer/Email.svg"
             alt=""
@@ -83,7 +86,7 @@ const TheFooter = () => {
 
           <p className="footer-contacts-link-text">
             Почта: <br />
-            general@itc-team.ru
+            itc-projects@yandex.ru
           </p>
         </a>
 

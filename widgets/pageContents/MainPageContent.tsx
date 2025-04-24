@@ -537,6 +537,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/HelperKipBot"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -568,6 +569,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/znakomstva_searchbot"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -601,6 +603,7 @@ const MainPageContent = () => {
 
             <a
               href="https://tour.panoee.net/65e08e217a73f2feff4db099/65e08e717a73f212cb4db0ac"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -634,6 +637,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/like_board"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -665,6 +669,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/halfcoder"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -690,6 +695,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/halfcoder"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -717,6 +723,7 @@ const MainPageContent = () => {
 
             <a
               href="https://t.me/ItcProjects"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -743,7 +750,8 @@ const MainPageContent = () => {
             </p>
 
             <a
-              href="https://t.me/ItcProjects"
+              href="https://itc-team.ru"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -771,6 +779,7 @@ const MainPageContent = () => {
 
             <a
               href="https://helldivers.help"
+              target="_blank"
               className="resultsSection-container-item-link"
             >
               <p className="resultsSection-container-item-link-text">
@@ -795,18 +804,6 @@ const MainPageContent = () => {
             <p className="resultsSection-container-item-text">
               СИСТЕМЫ КОНТРОЛЯ ПОСЕЩАЕМОСТИ
             </p>
-
-            <a href="" className="resultsSection-container-item-link">
-              <p className="resultsSection-container-item-link-text">
-                Подробнее
-              </p>
-
-              <img
-                src="/static/ArrowRight.svg"
-                alt=""
-                className="resultsSection-container-item-link-img"
-              />
-            </a>
           </div>
         </div>
       </section>
