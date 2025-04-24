@@ -321,7 +321,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/bykov_da"}
+                    href={"/activists/bykov_da"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>
@@ -348,7 +348,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/latysheva_am"}
+                    href={"/activists/latysheva_am"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>
@@ -375,7 +375,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/sattarova_szk"}
+                    href={"/activists/sattarova_szk"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>
@@ -402,7 +402,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/karabut_be"}
+                    href={"/activists/karabut_be"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>
@@ -429,7 +429,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/kuznetsova_ks"}
+                    href={"/activists/kuznetsova_ks"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>
@@ -456,7 +456,7 @@ const MainPageContent = () => {
                   </p>
 
                   <Link
-                    href={"/management/kalinicheva_ev"}
+                    href={"/activists/kalinicheva_ev"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>

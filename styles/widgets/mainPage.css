@@ -177,7 +177,7 @@
 }
 
 .formsSection-container-item {
-    @apply relative w-full h-[35.4vw] rounded-[35px];
+    @apply relative w-full h-[35.4vw] bg-cover bg-no-repeat rounded-[35px];
 }
 
 .formsSection-container-item-content {

@@ -58,7 +58,7 @@ const PersonPageContent = () => {
       <section className="persons">
         <div className="persons-top">
           <img
-            src={person.image ? person.image : ""}
+            src={person.image ? person.image : null}
             alt=""
             className="persons-top-image"
           />
