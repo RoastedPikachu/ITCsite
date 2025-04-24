@@ -129,7 +129,7 @@
 }
 
 .resultsSection-container-item-decoration {
-    @apply absolute right-[-70px] top-[-70px];
+    @apply absolute right-[-50px] top-[-50px] w-[100px] h-[100px];
 }
 
 .resultsSection-container-item-image {
@@ -150,6 +150,50 @@
 
 .resultsSection-container-item-link-img {
     @apply w-[22px];
+}
+
+.formsSection {
+    @apply relative pt-[185px] px-[135px] w-full h-auto;
+}
+
+.formsSection-title {
+    @apply max-w-[650px] text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase;
+}
+
+.formsSection-title-bold {
+    @apply text-[#00c9d7];
+}
+
+.formsSection-container {
+    @apply grid grid-cols-2 gap-x-[85px] items-center mt-[90px] w-full h-auto;
+}
+
+.formsSection-container-item {
+    @apply relative w-full h-[35.4vw] rounded-[35px];
+}
+
+.formsSection-container-item-content {
+    @apply absolute left-0 bottom-0 w-full;
+}
+
+.formsSection-container-item-step {
+    @apply flex justify-center items-center ml-[30px] mb-[15px] w-[110px] h-[50px] bg-[#00c9d7] rounded-[10px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase;
+}
+
+.formsSection-container-item-description {
+    @apply ml-[30px] mb-[30px] max-w-[355px] text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
+}
+
+.formsSection-container-item-buttonWrapper {
+    @apply relative grid justify-items-center items-center py-[30px] w-full h-auto bg-[#0a0a0a] border-[1px] border-[#323232] rounded-[35px];
+}
+
+.formsSection-container-item-buttonWrapper-button {
+    @apply py-[25px] w-[75%] h-auto bg-[#202020] rounded-[20px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase;
+}
+
+.formsSection-container-item-buttonWrapper-text {
+    @apply mt-[20px] w-[75%] text-[#b4b4b4] text-[1.25rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
 }
 
 .documentsSection {
@@ -347,6 +391,42 @@
 
     .resultsSection-container-item-link-img {
         @apply w-[8px];
+    }
+
+    .formsSection {
+        @apply pt-[90px] px-[20px];
+    }
+
+    .formsSection-title {
+        @apply text-[1.875rem];
+    }
+
+    .formsSection-container {
+        @apply grid-cols-1 gap-y-[30px] mt-[35px];
+    }
+
+    .formsSection-container-item {
+        @apply h-[77vw] rounded-[16px];
+    }
+
+    .formsSection-container-item-step {
+        @apply ml-[10px] mb-[5px] w-[50px] h-[20px] rounded-[5px] text-[0.6875rem];
+    }
+
+    .formsSection-container-item-description {
+        @apply ml-[10px] mb-[15px] text-[0.9375rem];
+    }
+
+    .formsSection-container-item-buttonWrapper {
+        @apply py-[15px] rounded-[16px];
+    }
+
+    .formsSection-container-item-buttonWrapper-button {
+        @apply py-[12px] w-[78%] rounded-[8px] text-[0.6875rem];
+    }
+
+    .formsSection-container-item-buttonWrapper-text {
+        @apply mt-[10px] w-[78%] text-[0.6875rem];
     }
 
     .documentsSection {

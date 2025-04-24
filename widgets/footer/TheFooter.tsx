@@ -15,27 +15,27 @@ const TheFooter = () => {
     },
     {
       id: 2,
-      link: "/",
+      link: "/#Management",
       text: "Руководство",
     },
     {
       id: 3,
-      link: "/",
+      link: "/#Activists",
       text: "Активисты",
     },
     {
       id: 4,
-      link: "/",
+      link: "/#Ways",
       text: "Направления",
     },
     {
       id: 5,
-      link: "/",
+      link: "/#Projects",
       text: "Наши проекты",
     },
     {
       id: 6,
-      link: "/",
+      link: "/junarmy",
       text: "Юнармия",
     },
   ];

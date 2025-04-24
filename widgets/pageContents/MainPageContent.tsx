@@ -68,7 +68,10 @@ const MainPageContent = () => {
           </div>
         </div>
 
-        <div className="greetingsSection-yearTotal">
+        <a
+          href="https://t.me/halfcoder/312"
+          className="greetingsSection-yearTotal"
+        >
           <button className="greetingsSection-yearTotal-button">
             <img src="/static/play.svg" alt="" />
           </button>
@@ -76,7 +79,7 @@ const MainPageContent = () => {
           <p className="greetingsSection-yearTotal-text">
             Подведение итогов года Остапенко Григорием Александровичем в КИПФИН
           </p>
-        </div>
+        </a>
 
         <img
           src="/static/GreetingsBackgroundDarknessDecorationBottom.png"
@@ -85,7 +88,7 @@ const MainPageContent = () => {
         />
       </section>
 
-      <section className="managersSection">
+      <section id="Management" className="managersSection">
         <h2 className="managersSection-title">
           <b className="managersSection-title-bold">Р</b>уководство
           <br /> нашего сообщества
@@ -280,7 +283,7 @@ const MainPageContent = () => {
         </Swiper>
       </section>
 
-      <section className="activistsSection">
+      <section id="Activists" className="activistsSection">
         <h2 className="activistsSection-title">
           <b className="activistsSection-title-bold">А</b>ктивисты
           <br /> нашего сообщества
@@ -475,7 +478,7 @@ const MainPageContent = () => {
         </Swiper>
       </section>
 
-      <section className="projectsSection">
+      <section id="Ways" className="projectsSection">
         <h2 className="projectsSection-title">
           <b className="projectsSection-title-bold">К</b>АРТА IT-ГОРИЗОНТОВ:
           <br /> НАШИ НАПРАВЛЕНИЯ
@@ -494,13 +497,16 @@ const MainPageContent = () => {
             </p>
           </div>
 
-          <div className="projectsSection-container-item bg-[url('/static/Development.png')]">
+          <Link
+            href="/3dprint"
+            className="projectsSection-container-item bg-[url('/static/Development.png')]"
+          >
             <p className="projectsSection-container-item-text">3D печать</p>
-          </div>
+          </Link>
         </div>
       </section>
 
-      <section className="resultsSection">
+      <section id="Projects" className="resultsSection">
         <h2 className="resultsSection-title">
           <b className="resultsSection-title-bold">IT</b>-ПРОЕКТЫ: ОТ КОДА
           <br /> ДО ВОПЛОЩЕНИЯ
@@ -800,32 +806,30 @@ const MainPageContent = () => {
         </div>
       </section>
 
-      <section className="relative pt-[185px] px-[135px] w-full h-auto">
-        <h2 className="max-w-[650px] text-white text-[5.3125rem] font-['Bebas'] font-bold leading-[1] uppercase">
-          <b className="text-[#00c9d7]">С</b>ТАНЬ ЧАСТЬЮ НАШЕЙ <br />
+      <section id="ITC" className="formsSection">
+        <h2 className="formsSection-title">
+          <b className="formsSection-title-bold">С</b>ТАНЬ ЧАСТЬЮ НАШЕЙ <br />
           IT-СЕМЬИ!
         </h2>
 
-        <div className="grid grid-cols-2 gap-x-[85px] items-center mt-[90px] w-full h-auto">
-          <div className="relative w-full h-[35.4vw] bg-[url('/static/Form.png')] rounded-[35px]">
-            <div className="absolute left-0 bottom-0 w-full">
-              <p className="flex justify-center items-center ml-[30px] mb-[15px] w-[110px] h-[50px] bg-[#00c9d7] rounded-[10px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase">
-                ШАГ 1
-              </p>
+        <div className="formsSection-container">
+          <div className="formsSection-container-item bg-[url('/static/Form.png')]">
+            <div className="formsSection-container-item-content">
+              <p className="formsSection-container-item-step">ШАГ 1</p>
 
-              <p className="ml-[30px] mb-[30px] max-w-[355px] text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+              <p className="formsSection-container-item-description">
                 Зарегистрируйтесь через форму
               </p>
 
-              <div className="relative grid justify-items-center items-center py-[30px] w-full h-auto bg-[#0a0a0a] border-[1px] border-[#323232] rounded-[35px]">
+              <div className="formsSection-container-item-buttonWrapper">
                 <a
                   href="https://forms.yandex.ru/cloud/63d3abf750569066a055fc7b/"
-                  className="py-[25px] w-[75%] h-auto bg-[#202020] rounded-[20px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase"
+                  className="formsSection-container-item-buttonWrapper-button"
                 >
                   ЗАРЕГИСТРИРОВАТЬСЯ
                 </a>
 
-                <p className="mt-[20px] w-[75%] text-[#b4b4b4] text-[1.25rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+                <p className="formsSection-container-item-buttonWrapper-text">
                   Заполните простую форму, чтобы стать частью нашего сообщества
                   и получить шанс реализовать свой потенциал в IT. Мы поможем
                   вам раскрыть свои таланты и достичь высот!
@@ -834,26 +838,24 @@ const MainPageContent = () => {
             </div>
           </div>
 
-          <div className="relative w-full h-[35.4vw] bg-[url('/static/Declaration.png')] rounded-[35px]">
-            <div className="absolute left-0 bottom-0 w-full">
-              <p className="flex justify-center items-center ml-[30px] mb-[15px] w-[110px] h-[50px] bg-[#00c9d7] rounded-[10px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase">
-                ШАГ 2
-              </p>
+          <div className="formsSection-container-item bg-[url('/static/Declaration.png')]">
+            <div className="formsSection-container-item-content">
+              <p className="formsSection-container-item-step">ШАГ 2</p>
 
-              <p className="ml-[30px] mb-[30px] max-w-[640px] text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+              <p className="formsSection-container-item-description">
                 Заполните заявление в свободной форме и передайте его в 104
                 кабинет
               </p>
 
-              <div className="relative grid justify-items-center items-center py-[30px] w-full h-auto bg-[#0a0a0a] border-[1px] border-[#323232] rounded-[35px]">
+              <div className="formsSection-container-item-buttonWrapper">
                 <a
                   href="/static/docs/Zayavlenie-na-vstuplenie-v-ITS.docx"
-                  className="py-[25px] w-[75%] h-auto bg-[#202020] rounded-[20px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase"
+                  className="formsSection-container-item-buttonWrapper-button"
                 >
                   СКАЧАТЬ ЗАЯВЛЕНИЕ
                 </a>
 
-                <p className="mt-[20px] text-[#b4b4b4] text-[1.25rem] text-left font-['Montserrat'] font-semibold leading-[1.25]">
+                <p className="formsSection-container-item-buttonWrapper-text">
                   При подаче заявления необходимо указать <br />
                   1. ФИО; <br />
                   2. Группу и курс; <br />

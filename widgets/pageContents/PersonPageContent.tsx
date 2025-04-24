@@ -57,7 +57,7 @@ const PersonPageContent = () => {
     <main>
       <section className="persons">
         <div className="persons-top">
-          <img src={person.image} alt="" className="persons-top-image" />
+          <img src={`${person.image}`} alt="" className="persons-top-image" />
 
           <div className="persons-top-right">
             <h1

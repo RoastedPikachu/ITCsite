@@ -24,7 +24,9 @@ const TheHeader = () => {
         ))}
       </nav>
 
-      <button className="header-button">Хочу в ИТС</button>
+      <a href="/#ITC" className="header-button">
+        Хочу в ИТС
+      </a>
 
       <button
         onClick={() =>
