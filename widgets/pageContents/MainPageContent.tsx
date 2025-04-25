@@ -506,7 +506,7 @@ const MainPageContent = () => {
 
           <Link
             href="/3dprint"
-            className="projectsSection-container-item bg-[url('/static/DevelopmentO.png')]"
+            className="projectsSection-container-item bg-[url('/static/Development.png')]"
           >
             <p className="projectsSection-container-item-text">3D печать</p>
 
