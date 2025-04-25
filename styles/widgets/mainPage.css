@@ -489,6 +489,18 @@
         @apply text-[0.9375rem];
     }
 
+    .slider-item-content-link {
+        @apply gap-x-[7px] mt-[12px] px-[24px] w-auto max-w-[109px] h-[31px] rounded-[5px];
+    }
+
+    .slider-item-content-link > img {
+        @apply w-[11px];
+    }
+
+    .slider-item-content-link-text {
+        @apply text-[0.75rem];
+    }
+
     .slider-item-content-occupation {
         @apply mt-[15px] px-[8px] py-[10px] rounded-[5px] text-[0.75rem];
     }
