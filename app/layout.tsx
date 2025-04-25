@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ITC",
-  description: "ITC",
+  title: "ИТС КИПФИН",
+  description:
+    "Информационно-техническое сообщество Колледжа Информатики и Программирования",
 };
 
 export default function RootLayout({
