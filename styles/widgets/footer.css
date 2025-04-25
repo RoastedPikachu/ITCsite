@@ -1,7 +1,7 @@
 @reference "tailwindcss";
 
 .footer {
-    @apply relative flex justify-between items-start pt-[50px] pl-[122px] pr-[135px] w-full h-[702px] bg-[url('/static/footerBackground.png')] rounded-t-[30px];
+    @apply relative flex justify-between items-start pt-[50px] pl-[122px] pr-[135px] w-full h-[702px] bg-[url('/static/footerBackground.png')] bg-cover bg-no-repeat rounded-t-[30px];
 }
 
 .footer-nav {

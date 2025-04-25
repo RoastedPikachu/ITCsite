@@ -80,7 +80,7 @@
     @apply py-[25px] w-[75%] h-auto bg-[#202020] rounded-[20px] text-white text-[1.5rem] text-center font-['Montserrat'] font-bold uppercase;
 }
 
-.slider {
+.junarmySection .slider {
     @apply relative mt-[-85px] pt-[175px] w-auto max-w-[100%] h-[calc(35.4vw+175px)] overflow-x-hidden;
 }
 
@@ -88,31 +88,31 @@
     @apply relative py-[30px] px-[30px] w-full h-[35.4vw] bg-[url('/static/junarmy/Slobodenuk.png')] bg-cover border-[1px] border-[#323232] rounded-[40px] cursor-pointer;
 }
 
-.slider-item-content {
+.junarmySection .slider-item-content {
     @apply absolute bottom-[30px] left-[30px] w-[calc(100%-60px)];
 }
 
-.slider-item-content-name {
+.junarmySection .slider-item-content-name {
     @apply text-white text-[1.75rem] text-left font-['Montserrat'] font-semibold leading-[1.375];
 }
 
-.slider-item-content-occupation {
+.junarmySection .slider-item-content-occupation {
     @apply mt-[23px] px-[17px] py-[22px] max-w-[380px] border-[1px] border-[#e02307] rounded-[10px] text-white text-[1.125rem] text-left font-['Montserrat'] font-semibold;
 }
 
-.slider-prevButton {
+.junarmySection .slider-prevButton {
     @apply absolute flex justify-center items-center top-[0px] right-[90px] w-[70px] h-[70px] border-[1px] border-[#ffffff] rounded-[15px] z-[19] cursor-pointer;
 }
 
-.slider-nextButton {
+.junarmySection .slider-nextButton {
     @apply absolute flex justify-center items-center top-[0px] right-0 w-[70px] h-[70px] border-[1px] border-[#ffffff] rounded-[15px] z-[19] cursor-pointer;
 }
 
-.slider-prevButton > img {
+.junarmySection .slider-prevButton > img {
     @apply w-[25px] h-auto;
 }
 
-.slider-nextButton > img {
+.junarmySection .slider-nextButton > img {
     @apply w-[25px] h-auto;
 }
 
@@ -173,31 +173,31 @@
         @apply py-[12px] w-[77%] h-auto text-[0.6875rem] rounded-[8px];
     }
 
-    .slider {
+    .junarmySection .slider {
         @apply mt-[-75px] pt-[110px] h-[calc(78.4vw+110px)];
     }
 
-    .slider-item {
+    .junarmySection .slider-item {
         @apply py-[14px] px-[15px] w-[57.6vw] h-[78.4vw] rounded-[17px];
     }
 
-    .slider-item-content {
+    .junarmySection .slider-item-content {
         @apply bottom-[14px] left-[15px] w-[calc(100%-30px)];
     }
 
-    .slider-item-content-name {
+    .junarmySection .slider-item-content-name {
         @apply text-[0.9375rem];
     }
 
-    .slider-item-content-occupation {
+    .junarmySection .slider-item-content-occupation {
         @apply mt-[15px] px-[8px] py-[10px] rounded-[5px] text-[0.75rem];
     }
 
-    .slider-prevButton {
+    .junarmySection .slider-prevButton {
         @apply hidden;
     }
 
-    .slider-nextButton {
+    .junarmySection .slider-nextButton {
         @apply hidden;
     }
 }
