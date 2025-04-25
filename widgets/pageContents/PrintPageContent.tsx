@@ -54,6 +54,21 @@ const PrintPageContent = () => {
               </b>
             </p>
           </div>
+
+          <div className="printSection-container-item">
+            <img
+              src="/static/3dprint/Comics.png"
+              alt=""
+              className="printSection-container-item-image"
+            />
+
+            <p className="printSection-container-item-title">
+              КОМИКС{" "}
+              <b className="printSection-container-item-title-bold">
+                ЗОВ ВОСПОМИНАНИЙ
+              </b>
+            </p>
+          </div>
         </div>
       </section>
     </main>

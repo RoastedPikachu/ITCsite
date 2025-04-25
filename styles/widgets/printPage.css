@@ -13,11 +13,11 @@
 }
 
 .printSection-container {
-    @apply flex justify-between items-center mt-[90px] w-full h-auto;
+    @apply grid gap-x-[60px] gap-y-[140px] grid-cols-3 mt-[90px] w-full h-auto;
 }
 
 .printSection-container-item {
-    @apply relative grid gap-y-[25px] w-[30%] h-[36.8vw];
+    @apply relative grid gap-y-[25px] w-full h-[36.8vw];
 }
 
 .printSection-container-item-image {

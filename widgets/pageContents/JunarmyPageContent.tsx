@@ -27,7 +27,7 @@ const JunarmyPageContent = () => {
         )}
 
         <h1 className="junarmySection-title">
-          <b className="junarmySection-title-blueBold">П</b>АТРИОТИЧЕСКИЙ КЛУБ{" "}
+          <b className="junarmySection-title-redBold">П</b>АТРИОТИЧЕСКИЙ КЛУБ{" "}
           <b className="junarmySection-title-redBold">ЮНАРМИЯ</b>
         </h1>
 

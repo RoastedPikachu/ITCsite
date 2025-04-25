@@ -673,7 +673,9 @@ const MainPageContent = () => {
               className="resultsSection-container-item-image"
             />
 
-            <p className="resultsSection-container-item-text">ИТС ПОДКАСТЫ</p>
+            <p className="resultsSection-container-item-text">
+              ИТС ПОДКАСТЫ 🔥
+            </p>
 
             <a
               href="https://t.me/halfcoder"
@@ -812,6 +814,34 @@ const MainPageContent = () => {
             <p className="resultsSection-container-item-text">
               СИСТЕМЫ КОНТРОЛЯ ПОСЕЩАЕМОСТИ
             </p>
+          </div>
+
+          <div className="resultsSection-container-item">
+            <img
+              src="/static/projects/Zov.png"
+              alt=""
+              className="resultsSection-container-item-image"
+            />
+
+            <p className="resultsSection-container-item-text">
+              КОМИКС ЗОВ ВОСПОМИНАНИЙ
+            </p>
+
+            <a
+              href="https://teletype.in/@cat_evelina_02/Callofmemories"
+              target="_blank"
+              className="resultsSection-container-item-link"
+            >
+              <p className="resultsSection-container-item-link-text">
+                Подробнее
+              </p>
+
+              <img
+                src="/static/ArrowRight.svg"
+                alt=""
+                className="resultsSection-container-item-link-img"
+              />
+            </a>
           </div>
         </div>
       </section>
