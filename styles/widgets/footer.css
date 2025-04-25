@@ -58,7 +58,7 @@
 
 @media (max-width: 480px) {
     .footer {
-        @apply pt-[8px] pl-[20px] pr-[20px] w-full h-[285px] rounded-t-[0];
+        @apply pt-[8px] pl-[20px] pr-[20px] w-full h-[285px] bg-cover rounded-t-[0] overflow-y-hidden;
     }
 
     .footer-burgerButton {

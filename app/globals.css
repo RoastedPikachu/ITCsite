@@ -17,3 +17,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+/*html {*/
+/*  @apply overflow-y-hidden;*/
+/*}*/
