@@ -278,7 +278,7 @@
 
 @media (max-width: 480px) {
     .greetingsSection {
-        @apply pt-[127px] h-[870px];
+        @apply pt-[127px] h-[940px];
     }
 
     .greetingsSection-decoration {
@@ -499,5 +499,11 @@
 
     .slider-nextButton {
         @apply hidden;
+    }
+}
+
+@media (max-width: 380px) {
+    .greetingsSection-info-item-text {
+        @apply text-[0.75rem];
     }
 }

@@ -66,6 +66,7 @@ const MainPageContent = () => {
         <div className="greetingsSection-total">
           <a
             href="https://t.me/halfcoder/312"
+            target="_blank"
             className="greetingsSection-yearTotal"
           >
             <button className="greetingsSection-yearTotal-button">
@@ -80,6 +81,7 @@ const MainPageContent = () => {
 
           <a
             href="https://teletype.in/@wszug/G4xvL1X2stz"
+            target="_blank"
             className="greetingsSection-total-booklet"
           >
             Наш буклет
@@ -504,7 +506,7 @@ const MainPageContent = () => {
 
           <Link
             href="/3dprint"
-            className="projectsSection-container-item bg-[url('/static/Development.png')]"
+            className="projectsSection-container-item bg-[url('/static/DevelopmentO.png')]"
           >
             <p className="projectsSection-container-item-text">3D печать</p>
           </Link>
