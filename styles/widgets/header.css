@@ -1,7 +1,7 @@
 @reference "tailwindcss";
 
 .header {
-    @apply fixed flex justify-between items-center mt-[15px] mx-[calc((100vw-1440px)/2)] pt-[11px] pb-[18px] px-[20px] w-full max-w-[1440px] max-h-[98px] bg-[#0a0a0ab3] border-[1px] border-[#323232] rounded-[20px] z-40;
+    @apply fixed flex justify-between items-center mt-[15px] mx-[calc((100vw-1440px)/2)] pt-[11px] pb-[18px] px-[20px] w-full max-w-[1440px] max-h-[98px] bg-[#0a0a0ab3] border-[1px] border-[#323232] rounded-[20px] backdrop-blur-[30px] z-40;
 }
 
 .header-logo {

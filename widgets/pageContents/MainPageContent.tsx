@@ -509,6 +509,12 @@ const MainPageContent = () => {
             className="projectsSection-container-item bg-[url('/static/DevelopmentO.png')]"
           >
             <p className="projectsSection-container-item-text">3D печать</p>
+
+            <img
+              src="/static/link.svg"
+              alt=""
+              className="projectsSection-container-item-image"
+            />
           </Link>
         </div>
       </section>

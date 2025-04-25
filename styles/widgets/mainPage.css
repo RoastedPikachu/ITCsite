@@ -116,6 +116,10 @@
     @apply text-white text-[2.5rem] text-left font-['Montserrat'] font-semibold leading-[1.25];
 }
 
+.projectsSection-container-item-image {
+    @apply absolute left-[32px] bottom-[45px];
+}
+
 .resultsSection {
     @apply relative pt-[185px] px-[135px] w-full h-auto;
 }
@@ -371,6 +375,10 @@
 
     .projectsSection-container-item-text {
         @apply text-[0.9375rem];
+    }
+
+    .projectsSection-container-item-image {
+        @apply absolute left-[16px] bottom-[15px] w-[24px] h-[24px];
     }
 
     .resultsSection {

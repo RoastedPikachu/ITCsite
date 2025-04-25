@@ -14,44 +14,44 @@ const PageWrapper: React.FC<{ children: any }> = observer(({ children }) => {
   const links = [
     {
       id: 1,
-      link: "/",
       text: "Главная",
+      link: "/",
       isActive: false,
     },
     {
       id: 2,
-      link: "/",
       text: "Руководство",
+      link: "/#Management",
       isActive: false,
     },
     {
       id: 3,
-      link: "/",
-      text: "Активисты",
+      text: "Направления",
+      link: "/#Ways",
       isActive: false,
     },
     {
       id: 4,
-      link: "/",
-      text: "Направления",
+      text: "Наши проекты",
+      link: "/#Projects",
       isActive: false,
     },
     {
       id: 5,
-      link: "/",
-      text: "Наши проекты",
+      text: "Буклет",
+      link: "https://teletype.in/@wszug/G4xvL1X2stz",
       isActive: false,
     },
     {
       id: 6,
-      link: "/junarmy",
       text: "Юнармия",
+      link: "/junarmy",
       isActive: false,
     },
     {
       id: 7,
-      link: "/",
       text: "Хочу в ИТС",
+      link: "/#ITC",
       isActive: false,
     },
   ];
@@ -71,6 +71,7 @@ const PageWrapper: React.FC<{ children: any }> = observer(({ children }) => {
             <Link
               key={link.id}
               href={link.link}
+              onClick={() => burgerMenuStore.changeIsMenuOpened(false)}
               className={`flex justify-center items-center w-[61vw] h-[50px] ${link.id === 7 ? "bg-[#00c9d7] border-[1px] border-[#00c9d7]" : "bg-[#0a0a0a] border-[1px] border-[#323232]"} rounded-[10px] text-[#ffffff] text-[0.9375rem] font-['Montserrat'] font-medium`}
             >
               {link.text}
