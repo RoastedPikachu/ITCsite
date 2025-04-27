@@ -124,7 +124,7 @@ const MainPageContent = () => {
               <div className="slider-item bg-[url('/static/management/Demkina.png')]">
                 <div className="slider-item-content">
                   <p className="slider-item-content-name">
-                    Демкина Надежда Ибрагимовна
+                    Дёмкина Надежда Ибрагимовна
                   </p>
 
                   <Link
@@ -459,6 +459,330 @@ const MainPageContent = () => {
 
                   <Link
                     href={"/activists/kalinicheva_ev"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Marykina.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Марыкина Елизавета Олеговна
+                  </p>
+
+                  <Link
+                    href={"/activists/marykina_eo"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Sobolenko.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Соболенко Анна Романовна
+                  </p>
+
+                  <Link
+                    href={"/activists/sobolenko_ar"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Kochetkova.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Кочеткова Ксения Александровна
+                  </p>
+
+                  <Link
+                    href={"/activists/kochetkova_ka"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Uspanova.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Успанова Азиза Рифкатовна
+                  </p>
+
+                  <Link
+                    href={"/activists/uspanova_ar"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Shabanov.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Глеб Дмитриевич Шабанов
+                  </p>
+
+                  <Link
+                    href={"/activists/shabanov_gd"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Yakovenko.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Яковенко Михаил Константинович
+                  </p>
+
+                  <Link
+                    href={"/activists/yakovenko_mk"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Suhina.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Сухина Валерия Романовна
+                  </p>
+
+                  <Link
+                    href={"/activists/suhina_vr"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Andreeva.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Андреева Виктория Алексеевна
+                  </p>
+
+                  <Link
+                    href={"/activists/andreeva_va"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Solonov.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Солонов Андрей Дмитриевич
+                  </p>
+
+                  <Link
+                    href={"/activists/solonov_ad"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Nazimkina.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Назимкина Юлия Всеволодовна
+                  </p>
+
+                  <Link
+                    href={"/activists/nazimkina_yv"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Zatravkin.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Затравкин Алексей Дмитриевич
+                  </p>
+
+                  <Link
+                    href={"/activists/zatravkin_ad"}
+                    className="slider-item-content-link"
+                  >
+                    <p className="slider-item-content-link-text">Читать</p>
+
+                    <img src="/static/ArrowRight.svg" alt="" />
+                  </Link>
+                </div>
+
+                <img
+                  src="/static/sliderDecoration.png"
+                  alt=""
+                  className="absolute bottom-0 left-0 w-full h-[50%]"
+                />
+              </div>
+            )}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            {() => (
+              <div className="slider-item bg-[url('/static/activists/Trofimov.png')]">
+                <div className="slider-item-content">
+                  <p className="slider-item-content-name">
+                    Трофимов Матвей Михайлович
+                  </p>
+
+                  <Link
+                    href={"/activists/trofimov_mm"}
                     className="slider-item-content-link"
                   >
                     <p className="slider-item-content-link-text">Читать</p>

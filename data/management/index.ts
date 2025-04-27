@@ -2,7 +2,7 @@ export const management = [
   {
     id: 1,
     image: "/static/management/Demkina.png",
-    name: "<b style='color: #00c9d7'>ДЕМКИНА</b> НАДЕЖДА ИБРАГИМОВНА",
+    name: "<b style='color: #00c9d7'>ДЁМКИНА</b> НАДЕЖДА ИБРАГИМОВНА",
     enName: "demkina_ni",
     occupation:
       "Директор колледжа информатики и программирования Финансового университета при Правительстве Российской Федерации",

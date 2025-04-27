@@ -69,7 +69,11 @@ const PersonPageContent = () => {
               className="persons-top-right-title"
             ></h1>
 
-            <p className="persons-top-right-occupation ">{person.occupation}</p>
+            {person.occupation && (
+              <p className="persons-top-right-occupation ">
+                {person.occupation}
+              </p>
+            )}
 
             {person.quote && (
               <p className="persons-top-right-quote">{person.quote}</p>
