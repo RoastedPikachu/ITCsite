@@ -85,7 +85,7 @@
 }
 
 .junarmySection .slider-item {
-    @apply relative py-[30px] px-[30px] w-full h-[35.4vw] bg-[url('/static/junarmy/Slobodenuk.png')] bg-cover border-[1px] border-[#323232] rounded-[40px] cursor-pointer;
+    @apply relative py-[30px] px-[30px] w-full h-[35.4vw] bg-cover border-[1px] border-[#323232] rounded-[40px] cursor-pointer;
 }
 
 .junarmySection .slider-item-content {

@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 import "@/styles/widgets/junarmyPage.css";
+import { junarmy } from "@/data/junarmy";
 
 const JunarmyPageContent = () => {
   const navigationPrevRef = useRef(null);
@@ -65,101 +66,21 @@ const JunarmyPageContent = () => {
             }}
             className="slider"
           >
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Слободенюк Никита Владимирович
-                    </p>
+            {junarmy.map((item) => (
+              <SwiperSlide key={item.id}>
+                {() => (
+                  <div className={`slider-item ${item.image}`}>
+                    <div className="slider-item-content">
+                      <p className="slider-item-content-name">{item.name}</p>
 
-                    <p className="slider-item-content-occupation">
-                      Координатор отряда
-                    </p>
+                      <p className="slider-item-content-occupation">
+                        {item.occupation}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              )}
-            </SwiperSlide>
-
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Ретюнских Кирилл Александрович
-                    </p>
-
-                    <p className="slider-item-content-occupation">
-                      Командир отряда
-                    </p>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
-
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Саттарова Севара Жахонгир Кизи
-                    </p>
-
-                    <p className="slider-item-content-occupation">
-                      Заместитель командира по внешним мероприятиям
-                    </p>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
-
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Лопатина Виктория Владимировна
-                    </p>
-
-                    <p className="slider-item-content-occupation">
-                      Заместитель командира по внешним и внутренним мероприятиям
-                    </p>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
-
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Андреева Виктория Алексеевна
-                    </p>
-
-                    <p className="slider-item-content-occupation">
-                      Заместитель командира по внутренним мероприятиям
-                    </p>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
-
-            <SwiperSlide>
-              {() => (
-                <div className="slider-item">
-                  <div className="slider-item-content">
-                    <p className="slider-item-content-name">
-                      Саттарова Севара Жахонгир Кизи
-                    </p>
-
-                    <p className="slider-item-content-occupation">
-                      Менеджер по патриотическому воспитанию
-                    </p>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>
+                )}
+              </SwiperSlide>
+            ))}
 
             <button ref={navigationPrevRef} className="slider-prevButton">
               <img src="/static/slider/arrow-left.svg" alt="" />
@@ -186,10 +107,10 @@ const JunarmyPageContent = () => {
           >
             <SwiperSlide>
               {() => (
-                <div className="slider-item">
+                <div className={`slider-item ${junarmy[3].image}`}>
                   <div className="slider-item-content">
                     <p className="slider-item-content-name">
-                      Лопатина Виктория Владимировна
+                      {junarmy[3].name}
                     </p>
                   </div>
                 </div>
@@ -198,10 +119,10 @@ const JunarmyPageContent = () => {
 
             <SwiperSlide>
               {() => (
-                <div className="slider-item">
+                <div className={`slider-item ${junarmy[4].image}`}>
                   <div className="slider-item-content">
                     <p className="slider-item-content-name">
-                      Андреева Виктория Алексеевна
+                      {junarmy[4].name}
                     </p>
                   </div>
                 </div>
